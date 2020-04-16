@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>register</title>
+  <link rel="icon" href="favicon.ico">
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/2aec3b4eb9.js" crossorigin="anonymous"></script>
+
+  <!-- bootstrapScript  -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Girassol&family=Inconsolata:wght@700&family=Lato&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--nav bar-->
+  <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="">GIKER</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- head -->
+  <p class="slogan"> Giker</p>
+
+  <!-- button -->
+  <center>
+
+
+    <button type="button" class="col-lg-4 btn btn-outline-info btn-lg"><i class="fas fa-cloud-download-alt fa-4x"></i>
+      <h3>I'm a Giver</h3>
+    </button>
+    <button type="button" class="col-lg-4 btn btn-info btn-lg"><i class="fas fa-cloud-upload-alt fa-4x"></i>
+      <h3>I'm a Taker</h3>
+    </button>
+  </center>
+<hr>
+
+  <!-- Form       -->
+  <div class="container" id="formcon">
+			<div class="row main">
+
+				<div class="main-login main-center">
+					<form class="form-horizontal" method="post" action="#">
+
+						<div class="form-group">
+							<label for="name" class="cols-sm-2 control-label">Your Name</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label">Your Email</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="username" class="cols-sm-2 control-label">Username</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="password" class="cols-sm-2 control-label">Password</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group ">
+							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Register</button>
+						</div>
+						<div class="login-register">
+				            <a href="index.html">signin</a>
+				         </div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+  <!-- footer -->
+  <footer>
+    <h4>Contact on</h4>
+    <hr>
+    <div class="row">
+
+      <div class="col-lg-4">
+        <a href="#">
+          <i class="fab fa-instagram fa-5x"></i>
+          <p>Instagram</p>
+        </a>
+      </div>
+      <div class="col-lg-4">
+        <a href="#">
+          <i class="fab fa-twitter fa-5x"></i>
+          <p>twitter</p>
+        </a>
+      </div>
+      <div class="col-lg-4">
+        <a href="#">
+          <i class="fab fa-facebook-f fa-5x"></i>
+          <p>facebook</p>
+        </a>
+      </div>
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
